@@ -1,2 +1,2 @@
-# homebrew-postui
-Homebrew tap for postui
+# homebrew-tap
+Homebrew tap for chawkinsuf's tools
