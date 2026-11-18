@@ -1,25 +1,25 @@
 class Postui < Formula
   desc "A fast, local-first terminal HTTP client"
   homepage "https://github.com/chawkinsuf/postui"
-  version "0.4.1"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/chawkinsuf/postui/releases/download/v0.4.1/postui-aarch64-apple-darwin.tar.xz"
-      sha256 "9f6cad11911ea66ee5e8570c399558bccfb240e9bf7d8cc36aab07264fda42f0"
+      url "https://github.com/chawkinsuf/postui/releases/download/v0.5.0/postui-aarch64-apple-darwin.tar.xz"
+      sha256 "7ffe837100dff3fd7737af8bbede0eb32f5cb028002a794c4172928ae4d02dd2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chawkinsuf/postui/releases/download/v0.4.1/postui-x86_64-apple-darwin.tar.xz"
-      sha256 "88c3ec06c7c4036463c682ea69dd9815d19772e69bcfdd2fe12c54ba4ca69657"
+      url "https://github.com/chawkinsuf/postui/releases/download/v0.5.0/postui-x86_64-apple-darwin.tar.xz"
+      sha256 "859cf61ccd730196898ad4184df019d87f176ddff274d4a09f5cdfd5dcc07fd2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/chawkinsuf/postui/releases/download/v0.4.1/postui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "86a3456f00b492a55a4b41134ad5e26791156545aa9d1cdaf641c0dbf8c4824a"
+      url "https://github.com/chawkinsuf/postui/releases/download/v0.5.0/postui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "753d8184c62b1830b475e325fc446221dc0aece11e6e0c607c7bc98ecc219309"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chawkinsuf/postui/releases/download/v0.4.1/postui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "66445c853739cb239dbf0ccf3ac49d554eb87c762c5a9f56e39b1d994ef42ac5"
+      url "https://github.com/chawkinsuf/postui/releases/download/v0.5.0/postui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "afba903872406f82802798090862bb1f5d616afe7f09b108ae84b9c803ec0e4e"
     end
   end
   license "MIT"
